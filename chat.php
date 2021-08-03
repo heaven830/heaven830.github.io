@@ -6,5 +6,5 @@ $newOutput = $user, $message, "\n";
 
 echo  "\n", $user, $message;
 fwrite($myFile, $newOutput);
-
+fclose($myfile);
 ?>
