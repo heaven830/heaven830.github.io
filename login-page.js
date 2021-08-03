@@ -8,10 +8,10 @@ loginButton.addEventListener("click", (e) => {
     const password = loginForm.password.value;
 
     if (username === "incertae_sedis" && password === "SeanSanders") {
-        location.assign("file:///C:/Users/heave/OneDrive/Desktop/website%201/index.htm#");
+        location.assign("home.html");
     }
 	else if (username === "heaven830" && password === "HeavenLindenstruth") {
-        location.assign("file:///C:/Users/heave/OneDrive/Desktop/website%201/index.htm#");
+        location.assign("home.html");
     }
 	else {
         loginErrorMsg.style.opacity = 1;
