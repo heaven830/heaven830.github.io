@@ -8,11 +8,11 @@ function login(){
     const password = loginForm.password.value;
 
     if (username === "heaven830" && password === "HeavenLindenstruth") {
-        location.assign("index.html");
+        location.assign("home.html");
 		localStorage.setItem("user", "heaven");
     }
 	else if (username === "incertae_sedis" && password === "SeanSanders") {
-        location.assign("index.html");
+        location.assign("home.html");
 		localStorage.setItem("user", "sean");
     }
 	else {
